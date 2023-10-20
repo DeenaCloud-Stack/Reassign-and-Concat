@@ -1,0 +1,88 @@
+1. Module not found = particular file not found
+
+Sol.  open folder or file from the menu. 
+
+
+
+
+
+
+Array - Notes
+
+1. can not concat outside console an Array.(it won't work)
+
+
+a). Re-assign
+let frnd = ["vijay", "Rajesh", "Hari"];
+frnd = ["Raja", "shiva"];
+console.log(frnd);
+Result: ['Raja', 'shiva']
+
+
+// b). Concat        // not possible in conventional method for Array, either need use push method or concat method(in console).
+let frnd2 = ["vijay", "Rajesh", "Hari"];
+// frnd2 += ["Raja", "shiva"];
+// frnd2 = ["Raja", "shiva"];
+// frnd2[1] += ", Raja";
+frnd2[1] = frnd2[1] + ", Raja";
+
+console.log(frnd2);
+
+
+Result: ['Raja', 'shiva']
+[ 'vijay', 'Rajesh, Raja', 'Hari' ]
+console.log(ar.concat("Raja", "shiva")); // concat 
+
+
+
+
+
+
+String -  Notes 
+
+1. Re assign
+possible in string
+// let a = "deena";
+    a = "dayalan";
+    console.log(a); 
+Result: dayalan
+
+
+
+
+
+2. Concat 
+// let a = "deena";
+    a += "dayalan";
+    console.log(a); 
+Result: deenadayalan
+
+
+
+3. const obFun = {
+    Name: "Deena dayalan",
+    Age: 41,
+    inClass: true,
+    timing: { available: [5.30, 6.30, 8.00, 9.00] },
+    am: [5.30, 6.30, 8.00, 9.00],
+    result: function morning() {
+        return "hi";
+    }
+}
+
+
+
+
+
+
+
+Tasks: Http Methods
+
+Task: on monday 13-10-2023
+request method
+response code
+
+
+
+
+resign and concat all the datas and push to git.
